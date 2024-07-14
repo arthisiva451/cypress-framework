@@ -1,0 +1,17 @@
+{
+  "reporterEnabled": "mochawesome",
+  "mochawesomeReporterOptions": {
+    "assetsDir": "cypress/assets",
+    "reportDir": "cypress/reports/mocha",
+    "overwrite": true,
+    "html": false,
+    "json": true,
+    "quiet": true,
+    "saveVideos": true,
+    "saveScreenshots": true,
+    "saveOnlyFailedTests": true,
+    "code": true,
+    "autoOpen": true,
+    "customStyle": "cypress/assets/custom-styles.css"
+  }
+}
